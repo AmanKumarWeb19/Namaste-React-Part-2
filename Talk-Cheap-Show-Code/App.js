@@ -26,7 +26,7 @@ const Header = () => {
         <img
           className="logo"
           src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png"
-          alt="BurgerImg"
+          alt="logo"
         />
       </div>
       <div className="nav-items">
@@ -41,25 +41,31 @@ const Header = () => {
   );
 };
 
-const ResturantCard = (props) => {
+const RestuatantCard = (props) => {
   const { resData } = props;
-
-  const { name, cuisines, avgRating, costForTwo, deliveryTime } = resData?.info;
+  const {
+    name,
+    cuisines,
+    avgRating,
+    costForTwo,
+    deliveryTime,
+    cloudinaryImageId,
+  } = resData?.info;
   return (
     <div className="res-card" style={{ backgroundColor: "#f0f0f0" }}>
       <img
         className="res-logo"
         src={
           "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
-          resData.info.cloudinaryImageId
+          cloudinaryImageId
         }
         alt="res-image"
       />
       <h3>{name}</h3>
       <h4>{cuisines.join(", ")}</h4>
-      <h4>{avgRating} stars</h4>
+      <h4>{avgRating}</h4>
       <h4>{costForTwo}</h4>
-      <h4>{deliveryTime} minutes</h4>
+      <h4>{deliveryTime}</h4>
     </div>
   );
 };
@@ -992,7 +998,7 @@ const Body = () => {
       <div className="search">Search</div>
       <div className="res-container">
         {resList.map((restro) => (
-          <ResturantCard key={restro.info.id} resData={restro} />
+          <RestuatantCard key={restro.info.id} resData={restro} />
         ))}
       </div>
     </div>
