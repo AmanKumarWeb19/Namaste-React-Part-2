@@ -8,17 +8,6 @@ const Body = () => {
   return (
     <div className="body">
       <div className="filter">
-        {/* <button
-          className="filter-btn"
-          onClick={() => {
-            let filterRestro = listOfRestaurant.filter(
-              (res) => res.info.avgRating > 4
-            );
-            setListOfResturant(filterRestro);
-          }}
-        >
-          Top Rated Restuarant
-        </button> */}
         <button
           className="filter-btn"
           onClick={() => {
