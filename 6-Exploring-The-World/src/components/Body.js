@@ -19,17 +19,6 @@ const Body = () => {
         >
           Top Rated Restuarant
         </button>
-        <button
-          className="filter-btn"
-          onClick={() => {
-            let filterRestro = listOfRestaurant.filter(
-              (res) => res.info.avgRating < 4
-            );
-            setListOfResturant(filterRestro);
-          }}
-        >
-          Less Rated Restuarant
-        </button>
       </div>
       <div className="res-container">
         {listOfRestaurant.map((restro) => (
