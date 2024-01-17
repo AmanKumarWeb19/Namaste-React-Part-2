@@ -37,9 +37,13 @@
 .res-logo {
   width: 100%;
 }
+.filter {
+  display: flex;
+}
 .filter-btn {
+  width: 180px;
   margin: 10px;
-  padding: 5px;
+  padding: 2px;
   cursor: pointer;
 }
 .shimmer-container {
