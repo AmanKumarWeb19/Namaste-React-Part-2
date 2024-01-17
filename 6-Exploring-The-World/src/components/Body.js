@@ -1,9 +1,29 @@
-import resList from "../utils/mockData";
 import ResturantCard from "./ResturantCard";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Body = () => {
-  const [listOfRestaurant, setListOfResturant] = useState(resList);
+  const [listOfRestaurant, setListOfResturant] = useState([]);
+  // console.log({ listOfRestaurant });
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    const data = await fetch(
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.93519229&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING"
+    );
+
+    const json = await data.json();
+
+    setListOfResturant(
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    );
+  };
+
+  if (listOfRestaurant.length === 0) {
+    return <h1>Loading........</h1>;
+  }
 
   return (
     <div className="body">
@@ -12,7 +32,7 @@ const Body = () => {
           className="filter-btn"
           onClick={() => {
             let filterRestro = listOfRestaurant.filter(
-              (res) => res.info.avgRating > 4
+              (res) => res.info.avgRating > 4.2
             );
             setListOfResturant(filterRestro);
           }}
@@ -22,7 +42,7 @@ const Body = () => {
       </div>
       <div className="res-container">
         {listOfRestaurant.map((restro) => (
-          <ResturantCard key={restro.info.id} resData={restro} />
+          <ResturantCard key={restro.info?.id} resData={restro} />
         ))}
       </div>
     </div>

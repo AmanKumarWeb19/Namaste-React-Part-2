@@ -1,923 +1,1866 @@
 const resList = [
   {
-    info: {
-      id: "198669",
-      name: "Yummy Foods",
-      cloudinaryImageId: "fgwlhsuo1x7vkctvj8kx",
-      locality: "Bazar India Mall\n",
-      areaName: "BAZAR INDIA MALL",
-      costForTwo: 300,
-      costForTwoString: "₹300 for two",
-      cuisines: ["Biryani", "Chinese", "Fast Food"],
-      avgRating: 3.8,
-      parentId: "7566",
-      avgRatingString: "3.8",
-      totalRatingsString: "5K+",
-      deliveryTime: 43,
-      lastMileTravel: 3.7,
-      serviceability: "SERVICEABLE",
-      slaString: "40-45 mins",
-      lastMileTravelString: "3.7 km",
-      iconType: "ICON_TYPE_EMPTY",
-      availability: {
-        nextCloseTime: "2024-01-12 23:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/yummy-foods-bazar-india-mall-motihari-198669",
-      type: "WEBLINK",
-    },
+    info:
+    {
+  "id": "263485",
+  "name": "Chaayos Chai+Snacks=Relax",
+  "cloudinaryImageId": "cace805a6ba74137571d0f7ac92302b1",
+  "locality": "Kormangala 8th Block",
+  "areaName": "Kormangala",
+  "costForTwo": "₹250 for two",
+  "cuisines": [
+    "Bakery",
+    "Beverages",
+    "Chaat",
+    "Desserts",
+    "Home Food",
+    "Italian",
+    "Maharashtrian",
+    "Snacks",
+    "Street Food",
+    "Sweets"
+  ],
+  "avgRating": 4.5,
+  "parentId": "281782",
+  "avgRatingString": "4.5",
+  "totalRatingsString": "1K+",
+  "sla": {
+    "deliveryTime": 20,
+    "lastMileTravel": 0.7,
+    "serviceability": "SERVICEABLE",
+    "slaString": "20 mins",
+    "lastMileTravelString": "0.7 km",
+    "iconType": "ICON_TYPE_EMPTY"
   },
-  {
-    info: {
-      id: "575673",
-      name: "The Flavors Restaurant",
-      cloudinaryImageId: "yug8adbtzmcvkf7vtnst",
-      locality: "Chandmari\n",
-      areaName: "Chandmari",
-      costForTwo: "₹300 for two",
-      cuisines: ["North Indian", "Biryani", "Chinese"],
-      avgRating: 4,
-      parentId: "345253",
-      avgRatingString: "4.0",
-      totalRatingsString: "500+",
-
-      deliveryTime: 35,
-      lastMileTravel: 3.5,
-      serviceability: "SERVICEABLE",
-      slaString: "30-35 mins",
-      lastMileTravelString: "3.5 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 21:55:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/the-flavors-restaurant-chandmari-motihari-575673",
-      type: "WEBLINK",
-    },
+  "availability": {
+    "nextCloseTime": "2024-01-18 01:00:00",
+    "opened": true
   },
-  {
-    info: {
-      id: "198676",
-      name: "Biryani Junction",
-      cloudinaryImageId: "aho9lwywoja8skgxjtni",
-      locality: "Bank Road \n",
-      areaName: "BANK ROAD",
-      costForTwo: "₹270 for two",
-      cuisines: ["Biryani", "Desserts", "North Indian"],
-      avgRating: 3.7,
-      parentId: "3833",
-      avgRatingString: "3.7",
-      totalRatingsString: "1K+",
-
-      deliveryTime: 32,
-      lastMileTravel: 3.6,
-      serviceability: "SERVICEABLE",
-      slaString: "30-35 mins",
-      lastMileTravelString: "3.6 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 22:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/biryani-junction-bank-road-motihari-198676",
-      type: "WEBLINK",
-    },
+  "badges": {
+    "textExtendedBadges": [
+      {
+        "iconId": "guiltfree/GF_Logo_android_3x",
+        "shortDescription": "options available",
+        "fontColor": "#7E808C"
+      }
+    ]
   },
-  {
-    info: {
-      id: "791357",
-      name: "Haldiram",
-      cloudinaryImageId: "b14cd9fc40129fcfb97aa7e621719d07",
-      locality: "Pani Tanki Main Road",
-      areaName: "Near Pani Tanki",
-      costForTwo: "₹300 for two",
-      cuisines: [
-        "South Indian",
-        "Chinese",
-        "Italian-American",
-        "Tandoor",
-        "Snacks",
-        "Biryani",
-        "Beverages",
-      ],
-      avgRating: 4.4,
-      parentId: "396517",
-      avgRatingString: "4.4",
-      totalRatingsString: "50+",
-
-      deliveryTime: 38,
-      lastMileTravel: 4.5,
-      serviceability: "SERVICEABLE",
-      slaString: "35-40 mins",
-      lastMileTravelString: "4.5 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 22:00:00",
-        opened: true,
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
       },
-      badges: {
-        imageBadges: [
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        "badgeObject": [
           {
-            imageId: "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-            description: "OnlyOnSwiggy",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "OnlyOnSwiggy",
-                  imageId:
-                    "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      isNewlyOnboarded: true,
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/haldiram-pani-tanki-main-road-near-pani-tanki-motihari-791357",
-      type: "WEBLINK",
-    },
+            "attributes": {
+              "description": "",
+              "fontColor": "#7E808C",
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available"
+            }
+          }
+        ]
+      }
+    }
   },
-  {
-    info: {
-      id: "182308",
-      name: "Domino's Pizza",
-      cloudinaryImageId: "is35u90bfhejygo0lbwv",
-      locality: "Bhawanipur Zirat",
-      areaName: "Motihari Locality",
-      costForTwo: "₹400 for two",
-      cuisines: ["Pizzas", "Italian", "Pastas", "Desserts"],
-      avgRating: 4.3,
-      parentId: "2456",
-      avgRatingString: "4.3",
-      totalRatingsString: "500+",
-
-      deliveryTime: 25,
-      serviceability: "SERVICEABLE",
-      slaString: "25 mins",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 23:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/dominos-pizza-bhawanipur-zirat-motihari-locality-motihari-182308",
-      type: "WEBLINK",
-    },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
   },
-  {
-    info: {
-      id: "305923",
-      name: "Chennai Express",
-      cloudinaryImageId: "m4puhoyivf84dryu3t89",
-      locality: "Motihari Main Road",
-      areaName: "Khoda Nagar",
-      costForTwo: "₹200 for two",
-      cuisines: ["Indian"],
-      avgRating: 3.8,
-      veg: true,
-      parentId: "445780",
-      avgRatingString: "3.8",
-      totalRatingsString: "100+",
-
-      deliveryTime: 44,
-      lastMileTravel: 3.7,
-      serviceability: "SERVICEABLE",
-      slaString: "40-45 mins",
-      lastMileTravelString: "3.7 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 23:00:00",
-        opened: true,
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
       },
-      badges: {
-        imageBadges: [
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/chaayos-chai-snacks-relax-8th-block-kormangala-bangalore-263485",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "241027",
+  "name": "Namaste",
+  "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3",
+  "locality": "3rd Sector",
+  "areaName": "Hsr Layout",
+  "costForTwo": "₹100 for two",
+  "cuisines": [
+    "South Indian",
+    "Thalis",
+    "Biryani",
+    "Desserts",
+    "Beverages",
+    "Indian"
+  ],
+  "avgRating": 4.2,
+  "veg": true,
+  "parentId": "366271",
+  "avgRatingString": "4.2",
+  "totalRatingsString": "10K+",
+  "sla": {
+    "deliveryTime": 33,
+    "lastMileTravel": 4.2,
+    "serviceability": "SERVICEABLE",
+    "slaString": "33 mins",
+    "lastMileTravelString": "4.2 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 01:00:00",
+    "opened": true
+  },
+  "badges": {
+    "imageBadges": [
+      {
+        "imageId": "v1695133679/badges/Pure_Veg111.png",
+        "description": "pureveg"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        "badgeObject": [
           {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg",
-          },
-        ],
+            "attributes": {
+              "description": "pureveg",
+              "imageId": "v1695133679/badges/Pure_Veg111.png"
+            }
+          }
+        ]
       },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
+      "textBased": {
+        
       },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/chennai-express-main-road-khoda-nagar-motihari-305923",
-      type: "WEBLINK",
-    },
+      "textExtendedBadges": {
+        
+      }
+    }
   },
-  {
-    info: {
-      id: "726675",
-      name: "Cake and Bake",
-      cloudinaryImageId: "cd6814989c4bb10e53756fb1065ffe17",
-      locality: "Maharshi Nagar   Chhotabariyarpur",
-      areaName: "Agarwa",
-      costForTwo: "₹200 for two",
-      cuisines: ["Bakery"],
-      avgRating: 4.3,
-      veg: true,
-      parentId: "4436",
-      avgRatingString: "4.3",
-      totalRatingsString: "10+",
-
-      deliveryTime: 31,
-      lastMileTravel: 0.6,
-      serviceability: "SERVICEABLE",
-      slaString: "30-35 mins",
-      lastMileTravelString: "0.6 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 23:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/cake-and-bake-maharshi-nagar-chhotabariyarpur-agarwa-motihari-726675",
-      type: "WEBLINK",
-    },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
   },
-  {
-    info: {
-      id: "452409",
-      name: "The Amirlals",
-      cloudinaryImageId: "bwxnjr0er086onlf8auq",
-      locality: "Bagaha Dhala Road",
-      areaName: "Agarwa",
-      costForTwo: "₹350 for two",
-      cuisines: ["Beverages", "Bakery"],
-      avgRating: 4.1,
-      parentId: "272212",
-      avgRatingString: "4.1",
-      totalRatingsString: "100+",
-
-      deliveryTime: 46,
-      lastMileTravel: 5,
-      serviceability: "SERVICEABLE",
-      slaString: "45-50 mins",
-      lastMileTravelString: "5.0 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 22:00:00",
-        opened: true,
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
       },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/the-amirlals-bagaha-dhala-road-agarwa-motihari-452409",
-      type: "WEBLINK",
-    },
+      "video": {
+        
+      }
+    }
   },
-  {
-    info: {
-      id: "198662",
-      name: "Samrat Sweets & Restaurant",
-      cloudinaryImageId: "megm3waxzd3adulja6u2",
-      areaName: "Agarwa",
-      costForTwo: "₹250 for two",
-      cuisines: ["North Indian", "Sweets", "Bakery"],
-      avgRating: 3.9,
-      veg: true,
-      parentId: "176674",
-      avgRatingString: "3.9",
-      totalRatingsString: "1K+",
-
-      deliveryTime: 38,
-      lastMileTravel: 2.4,
-      serviceability: "SERVICEABLE",
-      slaString: "35-40 mins",
-      lastMileTravelString: "2.4 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 21:30:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/samrat-sweets-and-restaurant-agarwa-motihari-198662",
-      type: "WEBLINK",
-    },
+  "reviewsSummary": {
+    
   },
-  {
-    info: {
-      id: "422804",
-      name: "KFC",
-      cloudinaryImageId: "f01666ac73626461d7455d9c24005cd4",
-      locality: "Bhawanipur",
-      areaName: "Agarwa",
-      costForTwo: "₹400 for two",
-      cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
-      avgRating: 4.4,
-      parentId: "547",
-      avgRatingString: "4.4",
-      totalRatingsString: "1K+",
-
-      deliveryTime: 33,
-      lastMileTravel: 2.7,
-      serviceability: "SERVICEABLE",
-      slaString: "30-35 mins",
-      lastMileTravelString: "2.7 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 23:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/kfc-bhawanipur-agarwa-motihari-422804",
-      type: "WEBLINK",
-    },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/namaste-3rd-sector-hsr-layout-bangalore-241027",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "107443",
+  "name": "Lo! - Low Carb and Keto Foods",
+  "cloudinaryImageId": "o8t0w5gdlujpigauaflw",
+  "locality": "Sector-6",
+  "areaName": "HSR Layout",
+  "costForTwo": "₹150 for two",
+  "cuisines": [
+    "Healthy Food",
+    "Keto",
+    "North Indian",
+    "Continental"
+  ],
+  "avgRating": 4.4,
+  "parentId": "8282",
+  "avgRatingString": "4.4",
+  "totalRatingsString": "5K+",
+  "sla": {
+    "deliveryTime": 26,
+    "lastMileTravel": 3.5,
+    "serviceability": "SERVICEABLE",
+    "slaString": "26 mins",
+    "lastMileTravelString": "3.5 km",
+    "iconType": "ICON_TYPE_EMPTY"
   },
-  {
-    info: {
-      id: "606681",
-      name: "Chef Vishal Hotel And Restaurant",
-      cloudinaryImageId: "bx33g4rlwdte2xeonmjx",
-      locality: "Arya Nagar",
-      areaName: "Arya Nagar",
-      costForTwo: "₹250 for two",
-      cuisines: ["North Indian", "South Indian", "Chinese"],
-      avgRating: 4.2,
-      parentId: "361157",
-      avgRatingString: "4.2",
-      totalRatingsString: "100+",
-
-      deliveryTime: 51,
-      lastMileTravel: 4.8,
-      serviceability: "SERVICEABLE",
-      slaString: "50-55 mins",
-      lastMileTravelString: "4.8 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 21:45:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/chef-vishal-hotel-and-restaurant-arya-nagar-motihari-606681",
-      type: "WEBLINK",
-    },
+  "availability": {
+    "nextCloseTime": "2024-01-18 00:00:00",
+    "opened": true
   },
-  {
-    info: {
-      id: "654780",
-      name: "Winni Cakes & More",
-      cloudinaryImageId: "30b80d83d866b7d3bedd6a979315b693",
-      locality: "Bagaha Dhala Road",
-      areaName: "Agarwa",
-      costForTwo: "₹450 for two",
-      cuisines: ["Bakery", "Desserts"],
-      avgRating: 3.9,
-      veg: true,
-      parentId: "226144",
-      avgRatingString: "3.9",
-      totalRatingsString: "50+",
-
-      deliveryTime: 37,
-      lastMileTravel: 3,
-      serviceability: "SERVICEABLE",
-      slaString: "35-40 mins",
-      lastMileTravelString: "3.0 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 22:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/winni-cakes-and-more-bagaha-dhala-road-agarwa-motihari-654780",
-      type: "WEBLINK",
-    },
+  "badges": {
+    "textExtendedBadges": [
+      {
+        "iconId": "guiltfree/GF_Logo_android_3x",
+        "shortDescription": "brand",
+        "fontColor": "#7E808C"
+      }
+    ]
   },
-  {
-    info: {
-      id: "698044",
-      name: "Craft Momo",
-      cloudinaryImageId: "df276dd7bf831aafc5dd25ae8c56fd5e",
-      locality: "Motihar Sadar",
-      areaName: "Agarwa",
-      costForTwo: "₹200 for two",
-      cuisines: ["Chinese", "Burgers", "Beverages"],
-      avgRating: 4,
-      parentId: "399597",
-      avgRatingString: "4.0",
-      totalRatingsString: "100+",
-
-      deliveryTime: 41,
-      lastMileTravel: 3.6,
-      serviceability: "SERVICEABLE",
-      slaString: "40-45 mins",
-      lastMileTravelString: "3.6 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 22:30:00",
-        opened: true,
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
       },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
+      "textBased": {
+        
       },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/craft-momo-motihar-sadar-agarwa-motihari-698044",
-      type: "WEBLINK",
-    },
+      "textExtendedBadges": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "",
+              "fontColor": "#7E808C",
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "brand"
+            }
+          }
+        ]
+      }
+    }
   },
-  {
-    info: {
-      id: "471126",
-      name: "Usha Biryani and Curry Restaurant",
-      cloudinaryImageId: "da484125388fb0db20cfeb65a3482433",
-      locality: "M S College Road",
-      areaName: "Agarwa",
-      costForTwo: "₹250 for two",
-      cuisines: ["Biryani", "Indian"],
-      avgRating: 3.9,
-      parentId: "454583",
-      avgRatingString: "3.9",
-      totalRatingsString: "100+",
-
-      deliveryTime: 45,
-      lastMileTravel: 3.5,
-      serviceability: "SERVICEABLE",
-      slaString: "40-45 mins",
-      lastMileTravelString: "3.5 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 22:00:00",
-        opened: true,
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/usha-biryani-and-curry-restaurant-m-s-college-road-agarwa-motihari-471126",
-      type: "WEBLINK",
-    },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
   },
-  {
-    info: {
-      id: "721970",
-      name: "Hotel Rudra Regency",
-      cloudinaryImageId: "bcc941604e5dd4f94954e26e460695dc",
-      locality: "Bapudham",
-      areaName: "Agarwa",
-      costForTwo: "₹300 for two",
-      cuisines: [
-        "South Indian",
-        "Chinese",
-        "Biryani",
-        "Tandoor",
-        "Kebabs",
-        "Beverages",
-      ],
-      avgRating: 4.6,
-      parentId: "429914",
-      avgRatingString: "4.6",
-      totalRatingsString: "50+",
-
-      deliveryTime: 44,
-      lastMileTravel: 4.8,
-      serviceability: "SERVICEABLE",
-      slaString: "40-45 mins",
-      lastMileTravelString: "4.8 km",
-      iconType: "ICON_TYPE_EMPTY",
-
-      availability: {
-        nextCloseTime: "2024-01-12 22:30:00",
-        opened: true,
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
       },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {},
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹120 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-    },
-    analytics: {},
-    cta: {
-      link: "https://www.swiggy.com/restaurants/hotel-rudra-regency-bapudham-agarwa-motihari-721970",
-      type: "WEBLINK",
-    },
+      "video": {
+        
+      }
+    }
   },
-];
-
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/lo-low-carb-and-keto-foods-sector-6-hsr-layout-bangalore-107443",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "108097",
+  "name": "Ambur Star Briyani Since 1890",
+  "cloudinaryImageId": "yktanq9i7yfjrixaghuj",
+  "locality": "2nd Stage",
+  "areaName": "BTM Layout",
+  "costForTwo": "₹500 for two",
+  "cuisines": [
+    "Biryani",
+    "Chettinad",
+    "Andhra",
+    "Beverages",
+    "Seafood"
+  ],
+  "avgRating": 4.4,
+  "parentId": "21400",
+  "avgRatingString": "4.4",
+  "totalRatingsString": "10K+",
+  "sla": {
+    "deliveryTime": 28,
+    "lastMileTravel": 3,
+    "serviceability": "SERVICEABLE",
+    "slaString": "28 mins",
+    "lastMileTravelString": "3.0 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-17 23:45:00",
+    "opened": true
+  },
+  "badges": {
+    "textExtendedBadges": [
+      {
+        "iconId": "guiltfree/GF_Logo_android_3x",
+        "shortDescription": "options available",
+        "fontColor": "#7E808C"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "",
+              "fontColor": "#7E808C",
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/ambur-star-briyani-since-1890-2nd-stage-btm-layout-bangalore-108097",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "125956",
+  "name": "Glen's Bakehouse",
+  "cloudinaryImageId": "whfviizdgvwg0uwfk8dy",
+  "locality": "6th Block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹500 for two",
+  "cuisines": [
+    "Desserts",
+    "Bakery",
+    "Beverages",
+    "Continental",
+    "Italian"
+  ],
+  "avgRating": 4.5,
+  "parentId": "3220",
+  "avgRatingString": "4.5",
+  "totalRatingsString": "5K+",
+  "sla": {
+    "deliveryTime": 15,
+    "lastMileTravel": 0.4,
+    "serviceability": "SERVICEABLE",
+    "slaString": "15 mins",
+    "lastMileTravelString": "0.4 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 01:00:00",
+    "opened": true
+  },
+  "badges": {
+    "imageBadges": [
+      {
+        "imageId": "newg.png",
+        "description": "Gourmet"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "Gourmet",
+              "imageId": "newg.png"
+            }
+          }
+        ]
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/glens-bakehouse-6th-block-koramangala-bangalore-125956",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "444178",
+  "name": "Magnolia Bakery",
+  "cloudinaryImageId": "6f0945b8b18d9f4241dd1cd9a70e23d7",
+  "locality": "JK Plaza",
+  "areaName": "Indiranagar",
+  "costForTwo": "₹500 for two",
+  "cuisines": [
+    "Bakery",
+    "Desserts",
+    "Ice Cream"
+  ],
+  "avgRating": 4.6,
+  "parentId": "267303",
+  "avgRatingString": "4.6",
+  "totalRatingsString": "10K+",
+  "sla": {
+    "deliveryTime": 34,
+    "lastMileTravel": 5,
+    "serviceability": "SERVICEABLE",
+    "slaString": "34 mins",
+    "lastMileTravelString": "5.0 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 00:30:00",
+    "opened": true
+  },
+  "badges": {
+    "imageBadges": [
+      {
+        "imageId": "newg.png",
+        "description": "Gourmet"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "Gourmet",
+              "imageId": "newg.png"
+            }
+          }
+        ]
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/magnolia-bakery-jk-plaza-indiranagar-bangalore-444178",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "305",
+  "name": "A2B - Adyar Ananda Bhavan",
+  "cloudinaryImageId": "gxydb9wvkadarapno4hk",
+  "locality": "7th Block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹300 for two",
+  "cuisines": [
+    "South Indian",
+    "North Indian",
+    "Sweets",
+    "Chinese"
+  ],
+  "avgRating": 4.3,
+  "veg": true,
+  "parentId": "22",
+  "avgRatingString": "4.3",
+  "totalRatingsString": "10K+",
+  "sla": {
+    "deliveryTime": 29,
+    "lastMileTravel": 2.5,
+    "serviceability": "SERVICEABLE",
+    "slaString": "29 mins",
+    "lastMileTravelString": "2.5 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-17 22:30:00",
+    "opened": true
+  },
+  "badges": {
+    "imageBadges": [
+      {
+        "imageId": "v1695133679/badges/Pure_Veg111.png",
+        "description": "pureveg"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "pureveg",
+              "imageId": "v1695133679/badges/Pure_Veg111.png"
+            }
+          }
+        ]
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/a2b-adyar-ananda-bhavan-7th-block-koramangala-bangalore-305",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "74444",
+  "name": "Samosa Party",
+  "cloudinaryImageId": "d8d4e708a41f011361c949d44990d5e0",
+  "locality": "Koramangala",
+  "areaName": "Koramangala",
+  "costForTwo": "₹100 for two",
+  "cuisines": [
+    "Fast Food",
+    "Snacks",
+    "Beverages",
+    "Chaat",
+    "North Indian",
+    "Street Food",
+    "Sweets",
+    "Desserts",
+    "Punjabi",
+    "Bakery"
+  ],
+  "avgRating": 4.4,
+  "parentId": "6364",
+  "avgRatingString": "4.4",
+  "totalRatingsString": "10K+",
+  "sla": {
+    "deliveryTime": 26,
+    "lastMileTravel": 1.6,
+    "serviceability": "SERVICEABLE",
+    "slaString": "26 mins",
+    "lastMileTravelString": "1.6 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-24 00:00:00",
+    "opened": true
+  },
+  "badges": {
+    "textExtendedBadges": [
+      {
+        "iconId": "guiltfree/GF_Logo_android_3x",
+        "shortDescription": "options available",
+        "fontColor": "#7E808C"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "",
+              "fontColor": "#7E808C",
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/samosa-party-koramangala-bangalore-74444",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "38634",
+  "name": "Third Wave Coffee",
+  "cloudinaryImageId": "d96267738c19ec62acb5390e52faba41",
+  "locality": "Koramangala",
+  "areaName": "Koramangala",
+  "costForTwo": "₹400 for two",
+  "cuisines": [
+    "Beverages",
+    "Bakery",
+    "Continental"
+  ],
+  "avgRating": 4.5,
+  "parentId": "274773",
+  "avgRatingString": "4.5",
+  "totalRatingsString": "5K+",
+  "sla": {
+    "deliveryTime": 25,
+    "lastMileTravel": 0.8,
+    "serviceability": "SERVICEABLE",
+    "slaString": "25 mins",
+    "lastMileTravelString": "0.8 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 03:00:00",
+    "opened": true
+  },
+  "badges": {
+    "textExtendedBadges": [
+      {
+        "iconId": "guiltfree/GF_Logo_android_3x",
+        "shortDescription": "options available",
+        "fontColor": "#7E808C"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "",
+              "fontColor": "#7E808C",
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/third-wave-coffee-koramangala-bangalore-38634",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "29627",
+  "name": "BIB - Breakfast in the Box",
+  "cloudinaryImageId": "nbcpg5xk6ekrrngmkd0b",
+  "locality": "1st block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹350 for two",
+  "cuisines": [
+    "American",
+    "Continental"
+  ],
+  "avgRating": 4.4,
+  "parentId": "45396",
+  "avgRatingString": "4.4",
+  "totalRatingsString": "10K+",
+  "sla": {
+    "deliveryTime": 30,
+    "lastMileTravel": 1.3,
+    "serviceability": "SERVICEABLE",
+    "slaString": "30 mins",
+    "lastMileTravelString": "1.3 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-17 22:00:00",
+    "opened": true
+  },
+  "badges": {
+    "textExtendedBadges": [
+      {
+        "iconId": "guiltfree/GF_Logo_android_3x",
+        "shortDescription": "options available",
+        "fontColor": "#7E808C"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "",
+              "fontColor": "#7E808C",
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/bib-breakfast-in-the-box-1st-block-koramangala-bangalore-29627",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "50467",
+  "name": "Bakingo",
+  "cloudinaryImageId": "05994df0e49725bd230146c320b8f7aa",
+  "locality": "1st Block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹300 for two",
+  "cuisines": [
+    "Bakery",
+    "Desserts",
+    "Beverages",
+    "Snacks"
+  ],
+  "avgRating": 4.3,
+  "parentId": "3818",
+  "avgRatingString": "4.3",
+  "totalRatingsString": "5K+",
+  "sla": {
+    "deliveryTime": 29,
+    "lastMileTravel": 2.5,
+    "serviceability": "SERVICEABLE",
+    "slaString": "29 mins",
+    "lastMileTravelString": "2.5 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 01:00:00",
+    "opened": true
+  },
+  "badges": {
+    
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/bakingo-1st-block-koramangala-bangalore-50467",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "23678",
+  "name": "McDonald's",
+  "cloudinaryImageId": "405645b3118d83e89db4c65361e43733",
+  "locality": "5th Block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹400 for two",
+  "cuisines": [
+    "Burgers",
+    "Beverages",
+    "Cafe",
+    "Desserts"
+  ],
+  "avgRating": 4.4,
+  "parentId": "630",
+  "avgRatingString": "4.4",
+  "totalRatingsString": "10K+",
+  "sla": {
+    "deliveryTime": 24,
+    "lastMileTravel": 2.5,
+    "serviceability": "SERVICEABLE",
+    "slaString": "24 mins",
+    "lastMileTravelString": "2.5 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 03:00:00",
+    "opened": true
+  },
+  "badges": {
+    "textExtendedBadges": [
+      {
+        "iconId": "guiltfree/GF_Logo_android_3x",
+        "shortDescription": "options available",
+        "fontColor": "#7E808C"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "",
+              "fontColor": "#7E808C",
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/mcdonalds-5th-block-koramangala-bangalore-23678",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "68144",
+  "name": "WarmOven Cake & Desserts",
+  "cloudinaryImageId": "e938fb5f416cc2c28b4b519cf27b04cc",
+  "locality": "6th Block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹200 for two",
+  "cuisines": [
+    "Bakery",
+    "Desserts",
+    "Ice Cream",
+    "Beverages"
+  ],
+  "avgRating": 4.3,
+  "parentId": "9696",
+  "avgRatingString": "4.3",
+  "totalRatingsString": "5K+",
+  "sla": {
+    "deliveryTime": 23,
+    "lastMileTravel": 0.1,
+    "serviceability": "SERVICEABLE",
+    "slaString": "23 mins",
+    "lastMileTravelString": "0.1 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 05:00:00",
+    "opened": true
+  },
+  "badges": {
+    
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/warmoven-cake-and-desserts-6th-block-koramangala-bangalore-68144",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "407064",
+  "name": "Momo Zone - The Momo Company",
+  "cloudinaryImageId": "8c6d80411d9355da849a2e484bb1c7c1",
+  "locality": "KHB Colony",
+  "areaName": "Koramangala",
+  "costForTwo": "₹150 for two",
+  "cuisines": [
+    "Chinese",
+    "Tibetan",
+    "Fast Food"
+  ],
+  "avgRating": 4,
+  "parentId": "382343",
+  "avgRatingString": "4.0",
+  "totalRatingsString": "100+",
+  "sla": {
+    "deliveryTime": 33,
+    "lastMileTravel": 0.1,
+    "serviceability": "SERVICEABLE",
+    "slaString": "33 mins",
+    "lastMileTravelString": "0.1 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 05:00:00",
+    "opened": true
+  },
+  "badges": {
+    
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/momo-zone-the-momo-company-khb-colony-koramangala-bangalore-407064",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "68137",
+  "name": "Cupcake Bliss Cake & Desserts",
+  "cloudinaryImageId": "40f193d8b23afb2988489dac1258962f",
+  "locality": "6Th Block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹200 for two",
+  "cuisines": [
+    "Bakery",
+    "Desserts",
+    "Ice Cream",
+    "Beverages"
+  ],
+  "avgRating": 4.3,
+  "parentId": "66732",
+  "avgRatingString": "4.3",
+  "totalRatingsString": "1K+",
+  "sla": {
+    "deliveryTime": 22,
+    "lastMileTravel": 0.1,
+    "serviceability": "SERVICEABLE",
+    "slaString": "22 mins",
+    "lastMileTravelString": "0.1 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 05:00:00",
+    "opened": true
+  },
+  "badges": {
+    
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/cupcake-bliss-cake-and-desserts-6th-block-koramangala-bangalore-68137",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "68142",
+  "name": "Indiana Burgers",
+  "cloudinaryImageId": "sqj2kcjjx6n0ng6te1hp",
+  "locality": "6th Block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹150 for two",
+  "cuisines": [
+    "Burgers",
+    "American",
+    "Fast Food",
+    "Beverages",
+    "Desserts"
+  ],
+  "avgRating": 3.9,
+  "parentId": "5714",
+  "avgRatingString": "3.9",
+  "totalRatingsString": "1K+",
+  "sla": {
+    "deliveryTime": 24,
+    "lastMileTravel": 0.1,
+    "serviceability": "SERVICEABLE",
+    "slaString": "24 mins",
+    "lastMileTravelString": "0.1 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 05:00:00",
+    "opened": true
+  },
+  "badges": {
+    "textExtendedBadges": [
+      {
+        "iconId": "guiltfree/GF_Logo_android_3x",
+        "shortDescription": "options available",
+        "fontColor": "#7E808C"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "",
+              "fontColor": "#7E808C",
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/indiana-burgers-6th-block-koramangala-bangalore-68142",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "107605",
+  "name": "Aubree",
+  "cloudinaryImageId": "ef3aec85c38da87938b4e3c5a3028cd9",
+  "locality": "6th Block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹700 for two",
+  "cuisines": [
+    "Desserts",
+    "Bakery"
+  ],
+  "avgRating": 4.3,
+  "veg": true,
+  "parentId": "3807",
+  "avgRatingString": "4.3",
+  "totalRatingsString": "1K+",
+  "sla": {
+    "deliveryTime": 15,
+    "lastMileTravel": 1.1,
+    "serviceability": "SERVICEABLE",
+    "slaString": "15 mins",
+    "lastMileTravelString": "1.1 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-18 00:00:00",
+    "opened": true
+  },
+  "badges": {
+    "imageBadges": [
+      {
+        "imageId": "newg.png",
+        "description": "Gourmet"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "Gourmet",
+              "imageId": "newg.png"
+            }
+          }
+        ]
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/aubree-6th-block-koramangala-bangalore-107605",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "8736",
+  "name": "Krispy Kreme",
+  "cloudinaryImageId": "fdesw8tqfu9ihwht2psr",
+  "locality": "100 Ft intermediate Ring Road",
+  "areaName": "Koramangala",
+  "costForTwo": "₹170 for two",
+  "cuisines": [
+    "Desserts",
+    "Beverages"
+  ],
+  "avgRating": 4.5,
+  "veg": true,
+  "parentId": "570",
+  "avgRatingString": "4.5",
+  "totalRatingsString": "1K+",
+  "sla": {
+    "deliveryTime": 16,
+    "lastMileTravel": 0.6,
+    "serviceability": "SERVICEABLE",
+    "slaString": "16 mins",
+    "lastMileTravelString": "0.6 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-17 21:30:00",
+    "opened": true
+  },
+  "badges": {
+    "imageBadges": [
+      {
+        "imageId": "v1695133679/badges/Pure_Veg111.png",
+        "description": "pureveg"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "pureveg",
+              "imageId": "v1695133679/badges/Pure_Veg111.png"
+            }
+          }
+        ]
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/krispy-kreme-100-ft-intermediate-ring-road-koramangala-bangalore-8736",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "5167",
+  "name": "Theobroma",
+  "cloudinaryImageId": "b033728dcb0101ceb19bff0e1e1f6474",
+  "locality": "2nd stage",
+  "areaName": "Indiranagar",
+  "costForTwo": "₹400 for two",
+  "cuisines": [
+    "Bakery",
+    "Desserts",
+    "Beverages"
+  ],
+  "avgRating": 4.6,
+  "parentId": "1040",
+  "avgRatingString": "4.6",
+  "totalRatingsString": "10K+",
+  "sla": {
+    "deliveryTime": 36,
+    "lastMileTravel": 5,
+    "serviceability": "SERVICEABLE",
+    "slaString": "36 mins",
+    "lastMileTravelString": "5.0 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-17 23:59:00",
+    "opened": true
+  },
+  "badges": {
+    "imageBadges": [
+      {
+        "imageId": "newg.png",
+        "description": "Gourmet"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "Gourmet",
+              "imageId": "newg.png"
+            }
+          }
+        ]
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/theobroma-2nd-stage-indiranagar-bangalore-5167",
+  "type": "WEBLINK"
+}
+},
+{
+"info": {
+  "id": "22741",
+  "name": "Chai Point",
+  "cloudinaryImageId": "h1o3wrgyzmfar7jknllr",
+  "locality": "1st Block",
+  "areaName": "Koramangala",
+  "costForTwo": "₹150 for two",
+  "cuisines": [
+    "Bakery",
+    "Beverages",
+    "Maharashtrian",
+    "Snacks",
+    "Street Food",
+    "South Indian",
+    "Punjabi",
+    "Chaat",
+    "Indian",
+    "American",
+    "North Indian",
+    "Fast Food",
+    "Desserts",
+    "Cafe",
+    "Healthy Food",
+    "Home Food"
+  ],
+  "avgRating": 4.5,
+  "parentId": "1607",
+  "avgRatingString": "4.5",
+  "totalRatingsString": "10K+",
+  "sla": {
+    "deliveryTime": 28,
+    "lastMileTravel": 1.3,
+    "serviceability": "SERVICEABLE",
+    "slaString": "28 mins",
+    "lastMileTravelString": "1.3 km",
+    "iconType": "ICON_TYPE_EMPTY"
+  },
+  "availability": {
+    "nextCloseTime": "2024-01-17 23:00:00",
+    "opened": true
+  },
+  "badges": {
+    "textExtendedBadges": [
+      {
+        "iconId": "guiltfree/GF_Logo_android_3x",
+        "shortDescription": "options available",
+        "fontColor": "#7E808C"
+      }
+    ]
+  },
+  "isOpen": true,
+  "type": "F",
+  "badgesV2": {
+    "entityBadges": {
+      "imageBased": {
+        
+      },
+      "textBased": {
+        
+      },
+      "textExtendedBadges": {
+        "badgeObject": [
+          {
+            "attributes": {
+              "description": "",
+              "fontColor": "#7E808C",
+              "iconId": "guiltfree/GF_Logo_android_3x",
+              "shortDescription": "options available"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "aggregatedDiscountInfoV3": {
+    "header": "₹120 OFF",
+    "subHeader": "ABOVE ₹199",
+    "discountTag": "FLAT DEAL"
+  },
+  "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+      "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+      "lottie": {
+        
+      },
+      "video": {
+        
+      }
+    }
+  },
+  "reviewsSummary": {
+    
+  },
+  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+  "restaurantOfferPresentationInfo": {
+    
+  }
+},
+"analytics": {
+  
+},
+"cta": {
+  "link": "https://www.swiggy.com/restaurants/chai-point-1st-block-koramangala-bangalore-22741",
+  "type": "WEBLINK"
+}
+}
+]
 export default resList;
