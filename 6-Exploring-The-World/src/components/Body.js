@@ -25,6 +25,10 @@ const Body = () => {
   ) : (
     <div className="body">
       <div className="filter">
+        <div className="search">
+          <input type="text" placeholder="search name" className="search-box" />
+          <button className="search-btn">Search</button>
+        </div>
         <button
           className="filter-btn"
           onClick={() => {
