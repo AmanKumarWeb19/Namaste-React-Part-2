@@ -16,10 +16,10 @@ const Body = () => {
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.93519229&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
-    // console.log(
-    //   "jsondata",
-    //   json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
-    // );
+    console.log(
+      "jsondata",
+      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    );
     setListOfResturant(
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
@@ -27,10 +27,6 @@ const Body = () => {
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
-
-  // if (listOfRestaurant.length === 0) {
-  //   return <Shimmer />;
-  // }
 
   return listOfRestaurant.length === 0 ? (
     <Shimmer />
@@ -66,10 +62,11 @@ const Body = () => {
         <button
           className="filter-btn"
           onClick={() => {
-            let filterRestro = listOfRestaurant.filter(
-              (res) => res.info.avgRating > 4.2
+            // Filter the restaurant card based on top-rated
+            const filterRestro = listOfRestaurant.filter(
+              (res) => res.info.avgRating > 4.3
             );
-            setListOfResturant(filterRestro);
+            setFilteredRestro(filterRestro);
           }}
         >
           Top Rated Restuarant
@@ -77,7 +74,7 @@ const Body = () => {
       </div>
       <div className="res-container">
         {filteredRestro.map((restro) => (
-          <RestuatantCard key={restro.info.id} resData={restro} />
+          <RestuatantCard key={restro.info?.id} resData={restro} />
         ))}
       </div>
     </div>
