@@ -64,7 +64,7 @@ const Body = () => {
           onClick={() => {
             // Filter the restaurant card based on top-rated
             const filterRestro = listOfRestaurant.filter(
-              (res) => res.info.avgRating > 4.3
+              (res) => res.info.avgRating > 4.5
             );
             setFilteredRestro(filterRestro);
           }}
