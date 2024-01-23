@@ -1,18 +1,24 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Shimmer from "./Shimmer";
 
 const RestaurantMenu = () => {
+  const [resInfo, setResInfo] = useState(null);
+
   useEffect(() => {
-    fetchData();
+    fetchMenu();
   }, []);
 
-  const fetchData = async () => {
+  const fetchMenu = async () => {
     const data = await fetch(
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
-    console.log(json);
+    console.log("menujson", json);
   };
-  return (
+
+  return resInfo === null ? (
+    <Shimmer />
+  ) : (
     <div className="menu">
       <h1>name of the restaurant</h1>
       <h2>menu</h2>
