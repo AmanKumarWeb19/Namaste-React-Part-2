@@ -14,13 +14,24 @@ const RestaurantMenu = () => {
     );
     const json = await data.json();
     console.log("menujson", json);
+    setResInfo(json.data);
   };
 
-  return resInfo === null ? (
-    <Shimmer />
-  ) : (
+  if (resInfo === null) {
+    return <Shimmer />;
+  }
+
+  const { name, cuisines, costForTwo } =
+    resInfo?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants[0]
+      ?.info;
+
+  return (
     <div className="menu">
-      <h1>name of the restaurant</h1>
+      <h1>{name}</h1>
+      <p>
+        {cuisines.join(", ")} - {costForTwo}
+      </p>
+
       <h2>menu</h2>
       <ul>
         <li>Biryani</li>
@@ -31,3 +42,15 @@ const RestaurantMenu = () => {
   );
 };
 export default RestaurantMenu;
+
+// const restaurantInfo =
+// resInfo?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants[0]
+//   ?.info;
+
+// const name = restaurantInfo?.name || "Unknown";
+// const cuisines = restaurantInfo?.cuisines || "Unknown";
+// const costForTwo = restaurantInfo?.costForTwo || "Unknown";
+
+// https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9351929&lng=77.62448069999999&restaurantId=
+
+// https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING
