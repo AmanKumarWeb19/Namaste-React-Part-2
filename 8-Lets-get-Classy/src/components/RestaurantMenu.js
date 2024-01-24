@@ -1,7 +1,13 @@
 const RestaurantMenu = () => {
   return (
-    <div>
-      <h1>Restaurant Menu</h1>
+    <div className="menu">
+      <h1>Name of the Restaurant</h1>
+      <h2>Menu</h2>
+      <ul>
+        <li>Biryani</li>
+        <li>Pizza</li>
+        <li>Burger</li>
+      </ul>
     </div>
   );
 };
