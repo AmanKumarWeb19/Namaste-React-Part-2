@@ -64,3 +64,9 @@
   border-radius: 20%;
   font-weight: bold;
 }
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: crimson;
+}
