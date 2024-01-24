@@ -27,32 +27,34 @@ const RestaurantMenu = () => {
 
   const { name, cuisines, costForTwoMessage } =
     resInfo?.cards[0].card?.card?.info;
-  console.log({ name: name });
 
-  const { itemCards } =
-    resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
+  const { itemCards } = resInfo.cards[2].groupedCard.cardGroupMap.REGULAR
+    .cards[1].card.card.itemCards
+    ? resInfo.cards[2].groupedCard.cardGroupMap.REGULAR.cards[1].card.card
+    : resInfo.cards[2].groupedCard.cardGroupMap.REGULAR.cards[2].card.card;
   console.log({ itemscard: itemCards });
 
   return (
     <div className="menu">
-    <h1>{name}</h1>
-    <h3>
-      {cuisines.join(", ")} - {costForTwoMessage}
-    </h3>
-    <h2>Menu</h2>
-    <ul>
-      {itemCards && itemCards.length > 0 ? (
-        itemCards.map((item) => (
-          <li key={item.card.info.id}>
-            {item.card.info.name} -{" Rs."}
-            {item.card.info.price / 100 || item.card.info.defaultPrice / 100}
-          </li>
-        ))
-      ) : (
-        <li>No items found in the menu</li>
-      )}
-    </ul>
-  </div>
+      <h1>{name}</h1>
+      <h3>
+        {cuisines.join(", ")} - {costForTwoMessage}
+      </h3>
+      <h2>Menu</h2>
+      <ul>
+        {itemCards && itemCards.length > 0 ? (
+          itemCards.map((item) => (
+            <li key={item?.card?.info?.id}>
+              {item?.card?.info?.name} -{" Rs."}
+              {item?.card?.info?.price / 100 ||
+                item?.card?.info?.defaultPrice / 100}
+            </li>
+          ))
+        ) : (
+          <li>No items found in the menu</li>
+        )}
+      </ul>
+    </div>
   );
 };
 export default RestaurantMenu;
