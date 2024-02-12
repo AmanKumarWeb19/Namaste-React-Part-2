@@ -7,36 +7,36 @@ const Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login");
   const onlinestatus = useOnlineStatus();
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between bg-pink-100 shadow-lg">
       <div className="logoContainer">
         <Link to="/">
           <img className="w-48" src={LOGO_URL} alt="logo" />
         </Link>
       </div>
-      <div className="nav-items">
+      <div className="flex items-center">
         <ul className="flex p-4 m-4">
-          <li>Online Status:{onlinestatus ? "🟢" : "🔴"}</li>
-          <li>
+          <li className="px-5">Online Status:{onlinestatus ? "🟢" : "🔴"}</li>
+          <li className="px-5">
             <Link className="link" to="/">
               Home
             </Link>
           </li>
-          <li>
+          <li className="px-5">
             <Link className="link" to="/about">
               About Us
             </Link>
           </li>
-          <li>
+          <li className="px-5">
             <Link className="link" to="/contact">
               Contact Us
             </Link>
           </li>
-          <li>
+          <li className="px-5">
             <Link className="link" to="/cart">
               Cart
             </Link>
           </li>
-          <li>
+          <li className="px-5">
             <Link className="link" to="/grocery">
               Grocery
             </Link>
