@@ -15,34 +15,36 @@ const Header = () => {
       </div>
       <div className="flex items-center">
         <ul className="flex p-4 m-4">
-          <li className="px-5 text-lg">Online Status:{onlinestatus ? "🟢" : "🔴"}</li>
+          <li className="px-5 text-lg font-semibold">
+            Online Status:{onlinestatus ? "🟢" : "🔴"}
+          </li>
           <li className="px-5">
-            <Link className="text-lg" to="/">
+            <Link className="text-lg font-semibold" to="/">
               Home
             </Link>
           </li>
           <li className="px-5">
-            <Link className="text-lg" to="/about">
+            <Link className="text-lg font-semibold" to="/about">
               About Us
             </Link>
           </li>
           <li className="px-5">
-            <Link className="text-lg" to="/contact">
+            <Link className="text-lg font-semibold" to="/contact">
               Contact Us
             </Link>
           </li>
           <li className="px-5">
-            <Link className="text-lg" to="/cart">
+            <Link className="text-lg font-semibold" to="/cart">
               Cart
             </Link>
           </li>
           <li className="px-5">
-            <Link className="text-lg" to="/grocery">
+            <Link className="text-lg font-semibold" to="/grocery">
               Grocery
             </Link>
           </li>
           <button
-            className="header-login-btn text-lg"
+            className="header-login-btn text-lg font-semibold"
             onClick={() => {
               btnNameReact === "Login"
                 ? setBtnNameReact("LogOut")
