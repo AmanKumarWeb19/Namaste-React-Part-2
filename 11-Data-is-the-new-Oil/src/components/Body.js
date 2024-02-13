@@ -1,4 +1,4 @@
-import ResturantCard from "./ResturantCard";
+import ResturantCard, { withOnlineLabel } from "./ResturantCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -9,6 +9,10 @@ const Body = () => {
   const [searchText, setSearchText] = useState("");
   const [filterRestaurant, setFilterRestaurant] = useState([]);
 
+  const RestaurantCardOnline = withOnlineLabel(ResturantCard);
+
+  console.log("body Rendered", listOfRestaurant);
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -18,10 +22,10 @@ const Body = () => {
       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
-    console.log(
-      "jsondata",
-      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
-    );
+    // console.log(
+    //   "jsondata",
+    //   json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    // );
     setListOfResturant(
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
@@ -84,7 +88,12 @@ const Body = () => {
             key={restro.info?.id}
             to={"/restaurants/" + restro.info?.id}
           >
-            <ResturantCard resData={restro} />
+            {/* if the restro card is online then show the online in that restro card */}
+            {restro.info.isOpen ? (
+              <RestaurantCardOnline resData={restro} />
+            ) : (
+              <ResturantCard resData={restro} />
+            )}
           </Link>
         ))}
       </div>

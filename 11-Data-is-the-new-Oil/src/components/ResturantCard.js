@@ -14,7 +14,7 @@ const ResturantCard = (props) => {
   } = resData?.info;
 
   return (
-    <div className="m-4 p-4 w-[250px] bg-gray-100 hover:bg-gray-200">
+    <div className="m-4 p-4 w-[250px] bg-gray-200 hover:bg-gray-300">
       <img
         className="res-logo"
         src={CDN_URL + cloudinaryImageId}
@@ -28,4 +28,22 @@ const ResturantCard = (props) => {
     </div>
   );
 };
+
+// High Order Component:-
+
+// input => ResturantCard (as a component) ==> return RestaurantCardOnline (as a new component)
+
+export const withOnlineLabel = (ResturantCard) => {
+  return (props) => {
+    return (
+      <div>
+        <label className="absolute bg-green-400 text-white m-2 px-3 py-1 rounded-lg">
+          Open
+        </label>
+        <ResturantCard {...props} />
+      </div>
+    );
+  };
+};
+
 export default ResturantCard;
