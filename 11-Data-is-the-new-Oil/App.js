@@ -25,7 +25,7 @@ const AppLayOut = () => {
     setUserName(data.name);
   }, []);
   return (
-    <UserContext.Provider value={{ loggedInUSer: userName }}>
+    <UserContext.Provider value={{ loggedInUSer: userName, setUserName }}>
       <div className="App">
         <Header />
         <Outlet />
