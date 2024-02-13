@@ -18,7 +18,16 @@ const RestaurantMenu = () => {
     .cards[1].card.card.itemCards
     ? resInfo.cards[2].groupedCard.cardGroupMap.REGULAR.cards[1].card.card
     : resInfo.cards[2].groupedCard.cardGroupMap.REGULAR.cards[2].card.card;
-  console.log({ itemscard: itemCards });
+  // console.log({ itemscard: itemCards });
+
+  const categories =
+    resInfo.cards[2].groupedCard.cardGroupMap.REGULAR.cards.filter(
+      (c) =>
+        c.card?.card?.["@type"] ===
+        "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+    );
+
+  console.log("categroiesss", categories);
 
   return (
     <div className="menu">
@@ -26,21 +35,25 @@ const RestaurantMenu = () => {
       <h3>
         {cuisines.join(", ")} - {costForTwoMessage}
       </h3>
-      <h2>Menu</h2>
-      <ul>
-        {itemCards && itemCards.length > 0 ? (
-          itemCards.map((item) => (
-            <li key={item?.card?.info?.id}>
-              {item?.card?.info?.name} -{" Rs."}
-              {item?.card?.info?.price / 100 ||
-                item?.card?.info?.defaultPrice / 100}
-            </li>
-          ))
-        ) : (
-          <li>No items found in the menu</li>
-        )}
-      </ul>
+     
     </div>
   );
 };
 export default RestaurantMenu;
+
+/*** 
+ * <h2>Menu</h2>
+<ul>
+  {itemCards && itemCards.length > 0 ? (
+    itemCards.map((item) => (
+      <li key={item?.card?.info?.id}>
+        {item?.card?.info?.name} -{" Rs."}
+        {item?.card?.info?.price / 100 ||
+          item?.card?.info?.defaultPrice / 100}
+      </li>
+    ))
+  ) : (
+    <li>No items found in the menu</li>
+  )}
+</ul> 
+*/
