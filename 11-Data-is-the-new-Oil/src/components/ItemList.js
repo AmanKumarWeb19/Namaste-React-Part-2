@@ -1,7 +1,6 @@
 import { CDN_URL } from "../utils/constant";
 
 const ItemList = ({ items }) => {
-  console.log({ items: items });
   return (
     <div>
       {items.map((item) => (
@@ -23,7 +22,7 @@ const ItemList = ({ items }) => {
           </div>
           <div className="w-3/12 p-4">
             <div className="absolute">
-              <button className="p-2 bg-green-500 text-white shadow-lg rounded-lg mx-10 ">
+              <button className="p-2 bg-black text-white shadow-lg rounded-lg mx-10 ">
                 Add +
               </button>
             </div>
