@@ -30,12 +30,14 @@ const RestaurantMenu = () => {
   console.log("categroiesss", categories);
 
   return (
-    <div className="menu">
-      <h1>{name}</h1>
-      <h3>
+    <div className="text-center">
+      <h1 className="font-bold my-6 text-2xl">{name}</h1>
+      <h3 className="font-bold text-lg">
         {cuisines.join(", ")} - {costForTwoMessage}
       </h3>
-     
+      {/* categories Accordions */}
+      
+
     </div>
   );
 };
