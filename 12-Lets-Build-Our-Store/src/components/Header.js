@@ -27,25 +27,17 @@ const Header = () => {
           <li className="px-5 text-lg font-semibold">
             Online Status:{onlinestatus ? "🟢" : "🔴"}
           </li>
-          <li className="px-5">
-            <Link className="text-lg font-semibold" to="/">
-              Home
-            </Link>
+          <li className="px-5 text-lg font-semibold">
+            <Link to="/">Home</Link>
           </li>
-          <li className="px-5">
-            <Link className="text-lg font-semibold" to="/about">
-              About Us
-            </Link>
+          <li className="px-5 text-lg font-semibold">
+            <Link to="/about">About Us</Link>
           </li>
-          <li className="px-5">
-            <Link className="text-lg font-semibold" to="/contact">
-              Contact Us
-            </Link>
+          <li className="px-5 text-lg font-semibold">
+            <Link to="/contact">Contact Us</Link>
           </li>
-          <li className="px-5">
-            <Link className="text-lg font-semibold" to="/cart">
-              Cart - ({cartItems.length} items)
-            </Link>
+          <li className="px-5 text-lg font-semibold">
+            <Link to="/cart">Cart - ({cartItems.length} items)</Link>
           </li>
 
           <button
