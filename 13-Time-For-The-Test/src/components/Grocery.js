@@ -1,4 +1,4 @@
-const Grocery = () => {
+ const Grocery = () => {
   return (
     <div>
       <h1>
