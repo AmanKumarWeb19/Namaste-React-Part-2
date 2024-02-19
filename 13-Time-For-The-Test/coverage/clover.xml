@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1708316511959" clover="3.2.0">
-  <project timestamp="1708316511959" name="All files">
-    <metrics statements="29" coveredstatements="24" conditionals="4" coveredconditionals="2" methods="12" coveredmethods="7" elements="45" coveredelements="33" complexity="0" loc="29" ncloc="29" packages="2" files="8" classes="8"/>
+<coverage generated="1708318344347" clover="3.2.0">
+  <project timestamp="1708318344348" name="All files">
+    <metrics statements="37" coveredstatements="30" conditionals="4" coveredconditionals="2" methods="15" coveredmethods="8" elements="56" coveredelements="40" complexity="0" loc="37" ncloc="37" packages="2" files="9" classes="9"/>
     <package name="components">
-      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <metrics statements="19" coveredstatements="17" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="6"/>
       <file name="Contact.js" path="D:\Namaste-React-Part-2\13-Time-For-The-Test\src\components\Contact.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
@@ -19,6 +19,17 @@
         <line num="18" count="5" type="stmt"/>
         <line num="46" count="1" type="cond" truecount="1" falsecount="1"/>
       </file>
+      <file name="ResturantCard.js" path="D:\Namaste-React-Part-2\13-Time-For-The-Test\src\components\ResturantCard.js">
+        <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
       <file name="Sum.js" path="D:\Namaste-React-Part-2\13-Time-For-The-Test\src\components\Sum.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
@@ -29,7 +40,7 @@
       <metrics statements="18" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="2"/>
       <file name="UserContext.js" path="D:\Namaste-React-Part-2\13-Time-For-The-Test\src\utils\UserContext.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
       </file>
       <file name="appStore.js" path="D:\Namaste-React-Part-2\13-Time-For-The-Test\src\utils\appStore.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -45,9 +56,9 @@
       </file>
       <file name="constant.js" path="D:\Namaste-React-Part-2\13-Time-For-The-Test\src\utils\constant.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
       </file>
       <file name="useOnlineStatus.js" path="D:\Namaste-React-Part-2\13-Time-For-The-Test\src\utils\useOnlineStatus.js">
         <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
